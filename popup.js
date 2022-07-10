@@ -58,27 +58,27 @@ btn.onclick = function() {
       },
       function (window) {
         chrome.storage.local.set({"windowId": window.id}, function(){});
-        return;
+      });
+    } else {
+      chrome.windows.get(windowId, function (chromeWindow) {
+        //see if there's already the window
+        if (!chrome.runtime.lastError && chromeWindow) {
+          chrome.windows.update(windowId, { focused: true });
+          return;
+        }
+        
+        // if not the case above, create new a one
+        chrome.windows.create({
+          url : 'window.html',
+          focused : true,
+          type : 'popup',
+          height : 600,
+          width : 352
+        },
+        function (window) {
+          chrome.storage.local.set({"windowId": window.id}, function(){});
+        });
       });
     }
-    chrome.windows.get(windowId, function (chromeWindow) {
-      //see if there's already the window
-      if (!chrome.runtime.lastError && chromeWindow) {
-        chrome.windows.update(windowId, { focused: true });
-        return;
-      }
-      
-      // if not the case above, create new a one
-      chrome.windows.create({
-        url : 'window.html',
-        focused : true,
-        type : 'popup',
-        height : 600,
-        width : 352
-      },
-      function (window) {
-        chrome.storage.local.set({"windowId": window.id}, function(){});
-      });
-    });
   });
 };
