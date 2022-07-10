@@ -4,7 +4,7 @@ Makes google meet chat pop up as a new window by just one click.
 
 When you press the generate button, a new window pops up as posted blow.
 
-<img width="200" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/924548/46e40ec0-2832-7ce5-b654-424a1e5a2608.png"><img width="100" src="https://user-images.githubusercontent.com/104049111/178147709-a2d8af18-c553-4149-8b32-1b4d1ed2c175.png">
+<img width="200" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/924548/46e40ec0-2832-7ce5-b654-424a1e5a2608.png"><img width="100" src="https://user-images.githubusercontent.com/104049111/178160879-1a953652-d181-4d4f-8050-9f477010ce10.png">
 
 ## Usage
 
