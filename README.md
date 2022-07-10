@@ -11,7 +11,7 @@ When you press the generate button, a new window pops up as posted blow.
 Follow the instruction and precautions down below.
 
 1. **Move to the google meet tab** (this enable the extension to get a tab id with the chrome API)
-2. **Open up the chat section**（this enable the extension to excute DOM manipulation）
+2. **Open up the chat section**（this enable the extension to execute DOM manipulation）
 3. Open the extension by clicking the icon in the top right-hand corner of the screen and select "Google Meet Chat Popup"
 4. Press the generate button
 
