@@ -21,7 +21,7 @@ Follow the instruction and precautions down below.
 
 ## Installation
 
-Upcoming in chrome web store...
+Simply visit the [Chrome Web Store](https://chrome.google.com/webstore/detail/google-meet-chat-popup/efamlkkiainienfppdlhjkommlhomhid) and click "Add". The extension will update automatically.
 
 ## Developing locally
 
